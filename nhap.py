@@ -1,2 +1,3 @@
-for i in range(1,7):
-    print(i)
+s1="nam"
+print(str(list(reversed(s1))))
+print(s1)
