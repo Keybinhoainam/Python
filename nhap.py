@@ -1,11 +1,2 @@
-def findFirstMissing(a,n):
-    for i in range(n-1):
-        if abs(a[i]-a[i+1])!=1:
-            return i
-    return n-1
-
-n = int(input())
-a = [int(i) for i in input().split()]
-a.sort()
-idx = findFirstMissing(a,n)
-print(a[idx]+1)
+a=[1,2,3,4,5]
+if(6 in a):print("y")
