@@ -1,2 +1,3 @@
-a=[1,2,3,4,5]
-if(6 in a):print("y")
+n=float(input())
+print('%.3f' %n)
+print(f"{n:.3f}")
