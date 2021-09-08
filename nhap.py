@@ -1,8 +1,4 @@
-a=[1,'a','5','b']
-b=[]
-count=0
+a=[1,2,3,4]
 for i in a:
-    if(i not in b):
-        b.append(i)
-        count+=1
-print(count)
+    i=6
+print(a)
