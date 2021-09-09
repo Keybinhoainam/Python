@@ -5,7 +5,6 @@ a1=[]
 for i in range(1,m+1):
     a1.append(i)
     b[i]=a.count(i)
-# print(b[1])
 for i in range(m):
     for j in range(m-1):
         if(b[a1[j]]<b[a1[j+1]]):
